@@ -335,7 +335,7 @@ ul.btn li:last-child {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #51fe44;
+     color: #ffe300;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -381,7 +381,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background-color: #a64a7b;
      background-repeat: no-repeat;
      min-height: 900px;
      background-size: 100% 100%;
@@ -396,7 +396,7 @@ ul.btn li:last-child {
      content: "";
      width:50px; 
      height:40px;
-     background: url(../images/cross.png);
+     background-color: #a64a7b;
      background-repeat: no-repeat;
      bottom: -38px;
      right: 38px;
@@ -406,21 +406,22 @@ ul.btn li:last-child {
      content: "";
      width:50px; 
      height:40px;
-     background: url(../images/cross.png);
+     background-color: #a64a7b;
      background-repeat: no-repeat;
      bottom: -38px;
      left: 38px;
 }
 .text-bg {
-     text-align: left;
+     text-align: right;
 }
 
 .text-bg h1 {
-     color: #fff;
-     font-size: 81px;
+     color: #ffe300;
+     font-family:'Gill Sans';
+     font-size: 60px;
      line-height: 80px;
      padding-bottom: 45px;
-     font-weight: bold;
+     font-weight: bolder;
 }
 
 .text-bg span {
@@ -450,6 +451,8 @@ ul.btn li:last-child {
 
 .text_img figure {
      margin: 0;
+     border: 5px solid #555;
+     border-radius: 40px;
 }
 
 .text_img figure img {
@@ -473,7 +476,7 @@ ul.btn li:last-child {
      width: 20px;
      height: 20px;
      border-radius: 20px;
-     background: #48ca95;
+     background: #ff9100;
      margin-right: 5px;
      margin-left: 5px;
 }
@@ -490,16 +493,17 @@ ul.btn li:last-child {
 .text-bg a {
      font-size: 17px;
      background-color: transparent;
-     border: #fff solid 2px;
-     color: #fff;
+     border: #ffe300 solid 2px;
+     color: #ffe300;
      font-weight: 500;
-     padding: 14px 0px;
+     padding: 13px 0px;
      width: 100%;
      max-width: 215px;
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
      margin-right: 10px;
+     border-radius: 40px;
 }
 
 .text-bg a:hover {
@@ -540,7 +544,7 @@ ul.btn li:last-child {
 
 .read_more {
      font-size: 17px;
-     background-color: #48ca95;
+     background-color: #ffe300;
      color: #fff !important;
      padding: 13px 0px;
      width: 100%;
@@ -549,6 +553,7 @@ ul.btn li:last-child {
      display: inline-block;
      transition: ease-in all 0.5s;
      font-weight: 500;
+     border-radius: 40px;
 }
 
 .read_more:hover {
@@ -569,8 +574,12 @@ ul.btn li:last-child {
      background: #fff;
      text-align: center;
      padding: 50px 20px 20px 20px;
-     border: #48ca95 solid 1px;
+     border: #ffe300 solid 5px;
      border-radius: 15px;
+}
+
+.box_text {
+     background-color: #a64a7b;
 }
 
 .box_text h3 {
@@ -641,14 +650,15 @@ ul.btn li:last-child {
 }
 
 .our_products .read_more {
-     margin: 0 auto;
+     margin-left: 60px;
      display: block;
-     margin-top: 50px;
+     margin-top: 10px;
      background-color: transparent;
-     border: #48ca95 solid 2px;
-     color: #48ca95 !important;
+     border: #ffe300 solid 2px;
+     color: #ffe300 !important;
      max-width: 232px;
-     padding: 15px 0;
+     padding: 30px 0;
+     border-radius: 40px;
 }
 
 .our_products .read_more:hover {
@@ -665,7 +675,7 @@ ul.btn li:last-child {
 .laptop {
      font-family: 'Dosis', sans-serif;
      padding: 130px 0;
-     background-color: #4f4aa6;
+     background-color: #a64a7b;
 }
 
 .laptop .titlepage {
@@ -764,11 +774,11 @@ ul.btn li:last-child {
      width: 20px;
      height: 20px;
      border-radius: 20px;
-     background: #48ca95;
+     background: #ff9100;
 }
 
 .customer_Carousel .carousel-indicators li.active {
-     background: #4f4aa6;
+     background: #a64a7b;
 }
 
 #myCarousel .carousel-control-next-icon,
@@ -783,7 +793,7 @@ ul.btn li:last-child {
 /** contact section **/
 
 .contact {
-     background: url(../images/contact_g.jpg);
+     background-color: #a64a7b;
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding: 90px 0;
@@ -828,7 +838,7 @@ ul.btn li:last-child {
 .main_form .send_btn {
      font-size: 22px;
      transition: ease-in all 0.5s;
-     background-color: #48ca95;
+     background-color: #ffe300;
      text-transform: uppercase;
      color: #fff;
      padding: 15px 0px;
@@ -837,7 +847,7 @@ ul.btn li:last-child {
      display: block;
      margin-top: 30px !important;
      margin: 0 auto;
-     border-radius: 40px;
+     border-radius: 0;
      font-weight: 500;
 }
 
@@ -957,7 +967,7 @@ ul.social_icon li a:hover {
 .sub_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #48ca95;
+     background-color: #ffe300;
      color: #fff;
      padding: 10px 0px;
      max-width: 147px;

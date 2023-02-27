@@ -48,7 +48,7 @@
     }
     .text-bg h1 {
         font-size: 40px;
-        line-height: 65px;
+        line-height: 60px;
         padding-bottom: 10px;
     }
     .text-bg span {
@@ -56,8 +56,8 @@
         line-height: 23px;
     }
     .text-bg a {
-        max-width: 107px;
-        padding: 9px 0px;
+        max-width: 100px;
+        padding: 10px 0px;
     }
     .d_none {
         display: none;
@@ -98,7 +98,7 @@
         bottom: -40px;
     }
     .text-bg span {
-        font-size: 38px;
+        font-size: 38;
     }
     .text-bg a {
         margin-bottom: 30px;

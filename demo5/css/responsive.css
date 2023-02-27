@@ -172,7 +172,7 @@
     }
     .logo {
         text-align: center !important;
-        padding-bottom: 6px;
+        padding-bottom: 6px; 
         float: left;
     }
     #banner1 .carousel-inner {
